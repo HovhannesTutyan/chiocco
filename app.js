@@ -29,12 +29,12 @@ function changeCarousel(){
     active_old.classList.add('hidden');
     list[active].classList.add('active');
     mockup.style.setProperty('--left', leftMockup + '%')
-    clearInterval(refreshInterval);
-    refreshInterval = setInterval(
-        () => next.click(), 5000
-    )
+    // clearInterval(refreshInterval);
+    // refreshInterval = setInterval(
+    //     () => next.click(), 5000
+    // )
 }
 
-let refreshInterval = setInterval(
-    () => next.click(), 5000
-)
+// let refreshInterval = setInterval(
+//     () => next.click(), 5000
+// )
