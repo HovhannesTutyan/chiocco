@@ -216,8 +216,11 @@ header span::after{
         height: 170px;
         top: 28%;
     }
+    .item img.fruit{
+        width: 100%;
+    }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
     .mockup {
         width: 900px;
         height: 480px;
@@ -227,5 +230,26 @@ header span::after{
     }
     .item .content{
         font-size: 10rem;
+    }
+    .item img.fruit{
+        width: 100%;
+        top: 60%;
+    }
+}
+@media (max-width: 480px){
+    .mockup {
+        width: 400px;
+        height: 280px;
+    }
+    .leaves_right,
+    .leaves_left{
+        display: none;  
+    }
+    .item .content{
+        font-size: 5rem;
+    }
+    .item img.fruit{
+        width: 100%;
+        top: 70%;
     }
 }
